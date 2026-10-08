@@ -1,0 +1,81 @@
+ticker,name,sector,industry,market_cap,forward_pe,trailing_pe,peg_ratio
+AAPL,Apple Inc.,Technology,Consumer Electronics,4968150990848,35.506687,39.03899,2.67
+MSFT,Microsoft Corporation,Technology,Software - Infrastructure,3880664432640,22.072176,29.114761,1.72
+NVDA,NVIDIA Corporation,Technology,Semiconductors,5565400481792,14.482299,29.1378,0.29
+AVGO,Broadcom Inc.,Technology,Semiconductors,1719175217152,18.569834,45.994892,0.37
+ORCL,Oracle Corporation,Technology,Software - Infrastructure,410935099392,12.324312,21.246864,0.81
+CRM,"Salesforce, Inc.",Technology,Software - Application,187392983040,14.21255,20.832113,0.8
+AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,1013244559360,39.478714,158.33673,0.66
+ADBE,Adobe Inc.,Technology,Software - Application,93816659968,8.710568,13.4589615,0.58
+CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,452963794944,20.44186,34.501503,1.09
+INTU,Intuit Inc.,Technology,Software - Application,81207681024,11.223464,18.461727,0.92
+AMAT,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials,404393459712,27.581255,43.96635,1.05
+QCOM,QUALCOMM Incorporated,Technology,Semiconductors,187950415872,17.2491,20.371527,0.8
+TXN,Texas Instruments Incorporated,Technology,Semiconductors,263197999104,27.074127,43.86606,1.06
+NOW,"ServiceNow, Inc.",Technology,Software - Application,144471883776,27.917236,87.3375,0.99
+PANW,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure,325972983808,81.67541,996.25,2.14
+SNPS,"Synopsys, Inc.",Technology,Software - Infrastructure,95387140096,26.78522,87.941696,2.71
+CDNS,"Cadence Design Systems, Inc.",Technology,Software - Application,96068091904,36.46017,69.35188,2.75
+KLAC,KLA Corporation,Technology,Semiconductor Equipment & Materials,256720879616,29.337593,53.748634,1.89
+LRCX,Lam Research Corporation,Technology,Semiconductor Equipment & Materials,401194123264,27.251438,55.65798,1.55
+MU,"Micron Technology, Inc.",Technology,Semiconductors,1169870553088,5.020248,13.935692,0.16
+ANET,"Arista Networks, Inc.",Technology,Computer Hardware,265929244672,40.532566,66.5142,1.61
+CRWD,"CrowdStrike Holdings, Inc.",Technology,Software - Infrastructure,269305118720,163.7763,5260.2,7.2
+FTNT,"Fortinet, Inc.",Technology,Software - Infrastructure,138745266176,50.05599,66.81979,2.11
+ADI,"Analog Devices, Inc.",Technology,Semiconductors,196699652096,24.830378,48.210213,0.63
+ADP,"Automatic Data Processing, Inc.",Technology,Software - Application,107277189120,20.200218,24.746803,2.45
+MSI,"Motorola Solutions, Inc.",Technology,Communication Equipment,74014613504,23.01695,35.215355,2.01
+APH,Amphenol Corporation,Technology,Electronic Components,210470273024,25.627243,42.675,1.01
+PLTR,Palantir Technologies Inc.,Technology,Software - Infrastructure,477679943680,84.64307,171.36208,1.66
+WDAY,"Workday, Inc.",Technology,Software - Application,45262209024,14.192571,38.25051,0.56
+ADSK,"Autodesk, Inc.",Technology,Software - Application,48822403072,16.45141,30.298315,0.78
+NXPI,NXP Semiconductors N.V.,Technology,Semiconductors,58267578368,12.741723,19.732708,0.49
+MCHP,Microchip Technology Incorporated,Technology,Semiconductors,41008017408,16.47631,111.058815,0.24
+AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,2740370800640,24.273798,20.439259,1.52
+TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,1481080307712,174.84636,347.2222,4.55
+HD,"Home Depot, Inc. (The)",Consumer Cyclical,Home Improvement Retail,294757433344,18.477116,20.674599,1.51
+LOW,"Lowe's Companies, Inc.",Consumer Cyclical,Home Improvement Retail,105955057664,14.526923,15.963653,1.17
+NKE,"Nike, Inc.",Consumer Cyclical,Footwear & Accessories,51607052288,20.42598,16.704327,1.47
+SBUX,Starbucks Corporation,Consumer Cyclical,Restaurants,106259398656,29.868011,53.878613,1.06
+MCD,McDonald's Corporation,Consumer Cyclical,Restaurants,167619051520,17.180925,19.242079,2.45
+BKNG,Booking Holdings Inc.,Consumer Cyclical,Travel Services,120198332416,12.923453,17.735033,0.87
+CMG,"Chipotle Mexican Grill, Inc.",Consumer Cyclical,Restaurants,41312731136,23.8531,29.951834,1.38
+ABNB,"Airbnb, Inc.",Consumer Cyclical,Travel Services,97739784192,26.381203,37.18223,1.37
+ORLY,"O'Reilly Automotive, Inc.",Consumer Cyclical,Auto Parts,69578719232,23.559092,27.304762,2.09
+ROST,"Ross Stores, Inc.",Consumer Cyclical,Apparel Retail,72239898624,25.097626,27.230953,2.06
+UBER,"Uber Technologies, Inc.",Technology,Software - Application,143479635968,15.8881855,15.404606,5.89
+TTWO,"Take-Two Interactive Software, Inc.",Communication Services,Electronic Gaming & Multimedia,39148093440,20.34265,,2.77
+GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,4259564224512,23.10912,17.475664,1.24
+META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,1836471812096,20.867945,27.162395,0.98
+NFLX,"Netflix, Inc.",Communication Services,Entertainment,298013163520,18.801456,22.506289,1.17
+DIS,Walt Disney Company (The),Communication Services,Entertainment,184859082752,14.322235,22.074226,3.39
+CMCSA,Comcast Corporation,Communication Services,Telecom Services,75266580480,5.915889,6.8419356,142.98
+TMUS,"T-Mobile US, Inc.",Communication Services,Telecom Services,183759372288,11.865939,17.900732,0.59
+LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,1043275055104,24.582262,39.272575,1.12
+UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,332765331456,16.39659,23.841158,1.02
+ISRG,"Intuitive Surgical, Inc.",Healthcare,Medical Instruments & Supplies,146755239936,34.297985,47.63876,1.88
+AMGN,Amgen Inc.,Healthcare,Drug Manufacturers - General,220275097600,16.645313,25.306831,2.43
+GILD,"Gilead Sciences, Inc.",Healthcare,Drug Manufacturers - General,182397419520,14.874949,,2.14
+VRTX,Vertex Pharmaceuticals Incorporated,Healthcare,Biotechnology,127554215936,25.016403,29.309843,1.96
+REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare,Biotechnology,76142428160,12.0307865,18.288082,1.26
+MDT,Medtronic plc.,Healthcare,Medical Devices,112198295552,13.674225,21.55135,1.56
+SYK,Stryker Corporation,Healthcare,Medical Devices,106265083904,16.589977,28.70881,1.3
+BSX,Boston Scientific Corporation,Healthcare,Medical Devices,60903874560,12.425419,17.01417,0.59
+DHR,Danaher Corporation,Healthcare,Diagnostics & Research,152871354368,23.386393,38.762924,1.29
+ELV,"Elevance Health, Inc.",Healthcare,Healthcare Plans,86977601536,13.577047,17.753874,1.31
+V,Visa Inc.,Financial Services,Credit Services,704233472000,25.000532,31.925106,1.68
+MA,Mastercard Incorporated,Financial Services,Credit Services,503477927936,24.96177,31.613861,1.48
+AXP,American Express Company,Financial Services,Credit Services,207981920256,15.274196,18.688108,1.22
+PYPL,"PayPal Holdings, Inc.",Financial Services,Credit Services,47067455488,9.519954,10.400756,0.96
+SPGI,S&P Global Inc.,Financial Services,Financial Data & Stock Exchanges,118724804608,19.94495,24.51187,1.89
+BLK,"BlackRock, Inc.",Financial Services,Asset Management,173133004800,16.618986,25.504787,0.9
+GE,GE Aerospace,Industrials,Aerospace & Defense,317089447936,33.583405,36.038914,3.93
+CAT,"Caterpillar, Inc.",Industrials,Farm & Heavy Construction Machinery,365979336704,24.559935,34.273354,1.51
+ETN,"Eaton Corporation, PLC",Industrials,Specialty Industrial Machinery,164825300992,26.121347,43.170906,2.7
+HON,Honeywell International Inc.,Industrials,Conglomerates,65479806976,20.992586,7.6264305,3.48
+CTAS,Cintas Corporation,Industrials,Specialty Business Services,80350855168,32.64426,39.668636,3.07
+PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,119364141056,24.001968,33.233498,3.3
+COST,Costco Wholesale Corporation,Consumer Defensive,Discount Stores,420051156992,37.915676,45.660885,4.71
+WMT,Walmart Inc.,Consumer Defensive,Discount Stores,879845179392,34.297695,40.057972,3.64
+MNST,Monster Beverage Corporation,Consumer Defensive,Beverages - Non-Alcoholic,85512609792,33.366203,40.416668,2.22
+PG,Procter & Gamble Company (The),Consumer Defensive,Household & Personal Products,349794467840,20.360928,22.749247,3.8
