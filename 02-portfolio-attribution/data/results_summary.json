@@ -1,0 +1,781 @@
+{
+  "quality": {
+    "asof": "2026-10-09",
+    "n_universe": 77,
+    "n_sectors": 7,
+    "sectors": [
+      "Communication Services",
+      "Consumer Cyclical",
+      "Consumer Defensive",
+      "Financial Services",
+      "Healthcare",
+      "Industrials",
+      "Technology"
+    ],
+    "n_quarters": 20,
+    "first_rebalance": "2021-09-30",
+    "last_rebalance": "2026-06-30",
+    "last_month": "2026-09-30",
+    "n_price_scaled_fallback": 0,
+    "fallback_tickers": [],
+    "n_months_with_share_factor": 1196,
+    "n_months_with_spinoff_factor": 323,
+    "median_mcap_ratio_vs_yahoo": 0.9870172411221169,
+    "min_mcap_ratio_vs_yahoo": 0.8738121637279087,
+    "max_mcap_ratio_vs_yahoo": 1.0458388396997809
+  },
+  "performance": [
+    {
+      "portfolio": "Sector-pair",
+      "months": 60,
+      "quarters": 20,
+      "cagr": 0.20753068673464714,
+      "ann_vol": 0.16444885068793225,
+      "sharpe_rf0": 1.2357385733206343,
+      "sharpe_bil": 1.0234119724470023,
+      "max_drawdown": -0.19913827099631776,
+      "hit_rate_positive": 0.7,
+      "hit_rate_vs_iwf": 0.7,
+      "avg_quarter_return": 0.05166234824937087,
+      "total_return": 1.5673842995340914
+    },
+    {
+      "portfolio": "Cap-weight universe",
+      "months": 60,
+      "quarters": 20,
+      "cagr": 0.17851718165662467,
+      "ann_vol": 0.1938741689273391,
+      "sharpe_rf0": 0.9478038732661336,
+      "sharpe_bil": 0.7665167008608235,
+      "max_drawdown": -0.27674766189846145,
+      "hit_rate_positive": 0.7,
+      "hit_rate_vs_iwf": 0.8,
+      "avg_quarter_return": 0.047271647659483,
+      "total_return": 1.2734195614701966
+    },
+    {
+      "portfolio": "Equal-weight universe",
+      "months": 60,
+      "quarters": 20,
+      "cagr": 0.17932956259044253,
+      "ann_vol": 0.17860412616231378,
+      "sharpe_rf0": 1.0172740678763226,
+      "sharpe_bil": 0.8204289733858413,
+      "max_drawdown": -0.25962295781354083,
+      "hit_rate_positive": 0.7,
+      "hit_rate_vs_iwf": 0.7,
+      "avg_quarter_return": 0.04628460141230398,
+      "total_return": 1.2812659921136258
+    },
+    {
+      "portfolio": "IWF",
+      "months": 60,
+      "quarters": 20,
+      "cagr": 0.13479898164072557,
+      "ann_vol": 0.19274509525410352,
+      "sharpe_rf0": 0.7543143054568218,
+      "sharpe_bil": 0.5711064545705148,
+      "max_drawdown": -0.3074823209179406,
+      "hit_rate_positive": 0.7,
+      "hit_rate_vs_iwf": null,
+      "avg_quarter_return": 0.037529856442490586,
+      "total_return": 0.8818919605728452
+    }
+  ],
+  "linked_vs_cap_weight": {
+    "allocation": -0.16695914514156848,
+    "selection": -0.010117967725701435,
+    "interaction": 0.4710418509311637,
+    "cumulative_gap": 0.29396473806389434
+  },
+  "linked_vs_iwf": {
+    "allocation": -0.15641393165185277,
+    "selection": -0.0042921791798504055,
+    "interaction": 0.4297238345362747,
+    "cap_weight_vs_iwf": 0.41647461525667395,
+    "sum": 0.6854923389612455
+  },
+  "cumulative_gap_vs_iwf": 0.6854923389612451,
+  "avg_quarterly_effects": {
+    "allocation": -0.005961954687888456,
+    "selection": -0.00022977120858585497,
+    "interaction": 0.010582426486362177,
+    "excess_vs_bench": 0.004390700589887865,
+    "excess_vs_iwf": 0.014132491806880277,
+    "bench_vs_iwf": 0.00974179121699241
+  },
+  "tstat_excess_vs_cap": 0.5138087175771724,
+  "tstat_excess_vs_iwf": 1.6012758318645661,
+  "quarters_beat_cap": 9,
+  "quarters_beat_iwf": 14,
+  "n_quarters": 20,
+  "sector_linked": [
+    {
+      "sector": "Industrials",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.023903978585201928,
+      "avg_active_weight": 0.11895316427194091,
+      "linked_allocation": 0.12263698144814461,
+      "linked_selection": 0.014271901772069405,
+      "linked_interaction": 0.08208662258922608,
+      "linked_total": 0.2189955058094401
+    },
+    {
+      "sector": "Consumer Cyclical",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.16199179392006724,
+      "avg_active_weight": -0.019134651062924394,
+      "linked_allocation": 0.03764007181554188,
+      "linked_selection": 0.14122202741494758,
+      "linked_interaction": 0.01117221892480159,
+      "linked_total": 0.19003431815529104
+    },
+    {
+      "sector": "Healthcare",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.08372396982750382,
+      "avg_active_weight": 0.05913317302963902,
+      "linked_allocation": 0.007266974012108046,
+      "linked_selection": 0.0701228809943754,
+      "linked_interaction": 0.07010012561057723,
+      "linked_total": 0.14748998061706067
+    },
+    {
+      "sector": "Communication Services",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.1517341294408854,
+      "avg_active_weight": -0.008876986583742556,
+      "linked_allocation": 0.004101230140284223,
+      "linked_selection": 0.10972775736885504,
+      "linked_interaction": -0.003194749455249018,
+      "linked_total": 0.11063423805389025
+    },
+    {
+      "sector": "Financial Services",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.06009056186119692,
+      "avg_active_weight": 0.08276658099594593,
+      "linked_allocation": -0.09213698807740002,
+      "linked_selection": 0.04078658109342083,
+      "linked_interaction": 0.04712275194564685,
+      "linked_total": -0.004227655038332341
+    },
+    {
+      "sector": "Consumer Defensive",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.05215764314537037,
+      "avg_active_weight": 0.09069949971177248,
+      "linked_allocation": -0.020125804178157385,
+      "linked_selection": -0.0032833260313848618,
+      "linked_interaction": -0.0046713041130214674,
+      "linked_total": -0.028080434322563717
+    },
+    {
+      "sector": "Technology",
+      "avg_w_port": 0.14285714285714285,
+      "avg_w_bench": 0.4663979232197743,
+      "avg_active_weight": -0.32354078036263145,
+      "linked_allocation": -0.22634161030208982,
+      "linked_selection": -0.38296579033798483,
+      "linked_interaction": 0.2684261854291824,
+      "linked_total": -0.3408812152108923
+    }
+  ],
+  "top_contributors": [
+    {
+      "ticker": "CAT",
+      "sector": "Industrials",
+      "linked_contribution": 0.1656247288660952,
+      "avg_active_weight": 0.06113440956805538,
+      "avg_port_weight": 0.06785714285714285,
+      "quarters_held": 19,
+      "avg_return": 0.0959519531179384
+    },
+    {
+      "ticker": "LLY",
+      "sector": "Healthcare",
+      "linked_contribution": 0.15189324938566603,
+      "avg_active_weight": 0.04958138399674279,
+      "avg_port_weight": 0.07142857142857142,
+      "quarters_held": 20,
+      "avg_return": 0.097578719670654
+    },
+    {
+      "ticker": "META",
+      "sector": "Communication Services",
+      "linked_contribution": 0.08578950403617058,
+      "avg_active_weight": 0.03120762035314585,
+      "avg_port_weight": 0.07142857142857142,
+      "quarters_held": 17,
+      "avg_return": 0.1144078103184084
+    },
+    {
+      "ticker": "TSLA",
+      "sector": "Consumer Cyclical",
+      "linked_contribution": 0.0824348247936522,
+      "avg_active_weight": 0.03366467762450383,
+      "avg_port_weight": 0.07142857142857142,
+      "quarters_held": 20,
+      "avg_return": 0.06637399679098255
+    },
+    {
+      "ticker": "GE",
+      "sector": "Industrials",
+      "linked_contribution": 0.061160507049957354,
+      "avg_active_weight": 0.03624756993366647,
+      "avg_port_weight": 0.04285714285714286,
+      "quarters_held": 12,
+      "avg_return": 0.10183342458279936
+    },
+    {
+      "ticker": "PYPL",
+      "sector": "Financial Services",
+      "linked_contribution": 0.03465764573588241,
+      "avg_active_weight": -0.0042484683007780345,
+      "avg_port_weight": 0.0,
+      "quarters_held": 0,
+      "avg_return": -0.05491572826360245
+    },
+    {
+      "ticker": "ADBE",
+      "sector": "Technology",
+      "linked_contribution": 0.026847792892616462,
+      "avg_active_weight": -0.008344047991638643,
+      "avg_port_weight": 0.0,
+      "quarters_held": 0,
+      "avg_return": -0.029281097835220326
+    },
+    {
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "linked_contribution": 0.024872533727270316,
+      "avg_active_weight": -0.05213965851155431,
+      "avg_port_weight": 0.05714285714285714,
+      "quarters_held": 16,
+      "avg_return": 0.044283439678661086
+    }
+  ],
+  "bottom_contributors": [
+    {
+      "ticker": "NVDA",
+      "sector": "Technology",
+      "linked_contribution": -0.21074148401252263,
+      "avg_active_weight": -0.059599482647580034,
+      "avg_port_weight": 0.02857142857142857,
+      "quarters_held": 6,
+      "avg_return": 0.1645233285664331
+    },
+    {
+      "ticker": "AVGO",
+      "sector": "Technology",
+      "linked_contribution": -0.06582599830143768,
+      "avg_active_weight": -0.025050216232903526,
+      "avg_port_weight": 0.0,
+      "quarters_held": 0,
+      "avg_return": 0.1319239858256254
+    },
+    {
+      "ticker": "MU",
+      "sector": "Technology",
+      "linked_contribution": -0.0575768258395682,
+      "avg_active_weight": -0.006106671549739181,
+      "avg_port_weight": 0.0,
+      "quarters_held": 0,
+      "avg_return": 0.2253820185546028
+    },
+    {
+      "ticker": "UNH",
+      "sector": "Healthcare",
+      "linked_contribution": -0.05315921094038155,
+      "avg_active_weight": 0.052666246919643445,
+      "avg_port_weight": 0.07142857142857142,
+      "quarters_held": 20,
+      "avg_return": 0.017393457748712753
+    },
+    {
+      "ticker": "COST",
+      "sector": "Consumer Defensive",
+      "linked_contribution": -0.03797286488465401,
+      "avg_active_weight": 0.012537675905916427,
+      "avg_port_weight": 0.025,
+      "quarters_held": 7,
+      "avg_return": 0.0435309634519773
+    },
+    {
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "linked_contribution": -0.03739454853537572,
+      "avg_active_weight": 0.0023360437033992805,
+      "avg_port_weight": 0.010714285714285714,
+      "quarters_held": 3,
+      "avg_return": -0.010147730390461202
+    },
+    {
+      "ticker": "AMD",
+      "sector": "Technology",
+      "linked_contribution": -0.03545030946137946,
+      "avg_active_weight": -0.008975502723749041,
+      "avg_port_weight": 0.0,
+      "quarters_held": 0,
+      "avg_return": 0.15725991423799082
+    },
+    {
+      "ticker": "MA",
+      "sector": "Financial Services",
+      "linked_contribution": -0.03268929265140544,
+      "avg_active_weight": 0.05479936630166671,
+      "avg_port_weight": 0.07142857142857142,
+      "quarters_held": 20,
+      "avg_return": 0.02832729101939858
+    }
+  ],
+  "style": {
+    "factor_names": [
+      "value_minus_growth",
+      "small_minus_large",
+      "momentum_minus_market",
+      "quality_minus_market"
+    ],
+    "n_months": 60,
+    "train_end_inclusive": "2024-03-31",
+    "test_start": "2024-04-30",
+    "n_train": 30,
+    "n_test": 30,
+    "r2_full": 0.5151545866255348,
+    "alpha_monthly": 0.005445304578075851,
+    "alpha_annualized": 0.06534365493691022,
+    "mean_excess_monthly": 0.004818783789709611,
+    "mean_fitted_monthly": 0.004818783789709611,
+    "r2_test": 0.41936133300028955,
+    "alpha_train_monthly": 0.005077787466396805,
+    "coef_train": [
+      0.35493221938383024,
+      -0.2269185604320897,
+      -0.058605516678873835,
+      0.08219972162962344
+    ],
+    "beta_on_iwf": 0.7878600347009798,
+    "alpha_on_iwf_monthly": 0.007389043017345158,
+    "alpha_on_iwf_annualized": 0.0886685162081419,
+    "r2_on_iwf": 0.852713477812429,
+    "beta_on_iwf_tstat": 18.324581154387847,
+    "beta_excess_bil": 0.7867105043007798,
+    "alpha_excess_bil_annualized": 0.08116943099378406,
+    "r2_excess_bil": 0.8508588875901497,
+    "cap_beta_on_iwf": 0.9945157125188154,
+    "cap_alpha_on_iwf_annualized": 0.03916166823426602,
+    "cap_r2_on_iwf": 0.9775749639971889,
+    "cap_tracking_error": 0.029051877059581826,
+    "cap_corr_iwf": 0.9887239068603471,
+    "factor_correlation": {
+      "value_minus_growth": {
+        "value_minus_growth": 1.0,
+        "small_minus_large": 0.3749,
+        "momentum_minus_market": -0.1703,
+        "quality_minus_market": 0.1752
+      },
+      "small_minus_large": {
+        "value_minus_growth": 0.3749,
+        "small_minus_large": 1.0,
+        "momentum_minus_market": 0.0822,
+        "quality_minus_market": -0.0459
+      },
+      "momentum_minus_market": {
+        "value_minus_growth": -0.1703,
+        "small_minus_large": 0.0822,
+        "momentum_minus_market": 1.0,
+        "quality_minus_market": 0.0753
+      },
+      "quality_minus_market": {
+        "value_minus_growth": 0.1752,
+        "small_minus_large": -0.0459,
+        "momentum_minus_market": 0.0753,
+        "quality_minus_market": 1.0
+      }
+    }
+  },
+  "style_coefficients": [
+    {
+      "term": "intercept",
+      "coef_monthly": 0.005445304578075851,
+      "se": 0.0020551290962641327,
+      "tstat_descriptive": 2.6496167992436424
+    },
+    {
+      "term": "value_minus_growth",
+      "coef_monthly": 0.3725358454398174,
+      "se": 0.056165473486614166,
+      "tstat_descriptive": 6.632826580347503
+    },
+    {
+      "term": "small_minus_large",
+      "coef_monthly": -0.0972725595549441,
+      "se": 0.07236068179660925,
+      "tstat_descriptive": -1.3442736737660506
+    },
+    {
+      "term": "momentum_minus_market",
+      "coef_monthly": 0.003695115098425351,
+      "se": 0.059035653592138054,
+      "tstat_descriptive": 0.06259124568949365
+    },
+    {
+      "term": "quality_minus_market",
+      "coef_monthly": 0.35133085651829105,
+      "se": 0.20563731513713615,
+      "tstat_descriptive": 1.708497586072811
+    }
+  ],
+  "turnover": {
+    "avg_one_way": 0.07882314491571334,
+    "avg_active_share": 0.5137231094409083,
+    "names_per_quarter": 14
+  },
+  "costs": {
+    "cost_bps_one_way": 10,
+    "avg_one_way_turnover": 0.07882314491571334,
+    "cagr_gross_quarterly": 0.20753068673464692,
+    "cagr_net_quarterly": 0.20715000211135703,
+    "cagr_drag": 0.00038068462328988417
+  },
+  "membership": [
+    {
+      "ticker": "GOOGL",
+      "sector": "Communication Services",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "META",
+      "sector": "Communication Services",
+      "quarters_held": 17,
+      "first_held": "2022-06-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "DIS",
+      "sector": "Communication Services",
+      "quarters_held": 3,
+      "first_held": "2021-09-30",
+      "last_held": "2022-03-31"
+    },
+    {
+      "ticker": "AMZN",
+      "sector": "Consumer Cyclical",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "TSLA",
+      "sector": "Consumer Cyclical",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "WMT",
+      "sector": "Consumer Defensive",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "PG",
+      "sector": "Consumer Defensive",
+      "quarters_held": 13,
+      "first_held": "2021-09-30",
+      "last_held": "2024-09-30"
+    },
+    {
+      "ticker": "COST",
+      "sector": "Consumer Defensive",
+      "quarters_held": 7,
+      "first_held": "2024-12-31",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "MA",
+      "sector": "Financial Services",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "V",
+      "sector": "Financial Services",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "LLY",
+      "sector": "Healthcare",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "UNH",
+      "sector": "Healthcare",
+      "quarters_held": 20,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "CAT",
+      "sector": "Industrials",
+      "quarters_held": 19,
+      "first_held": "2021-12-31",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "GE",
+      "sector": "Industrials",
+      "quarters_held": 12,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "HON",
+      "sector": "Industrials",
+      "quarters_held": 9,
+      "first_held": "2021-09-30",
+      "last_held": "2023-09-30"
+    },
+    {
+      "ticker": "AAPL",
+      "sector": "Technology",
+      "quarters_held": 18,
+      "first_held": "2021-09-30",
+      "last_held": "2026-06-30"
+    },
+    {
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "quarters_held": 16,
+      "first_held": "2021-09-30",
+      "last_held": "2025-09-30"
+    },
+    {
+      "ticker": "NVDA",
+      "sector": "Technology",
+      "quarters_held": 6,
+      "first_held": "2024-12-31",
+      "last_held": "2026-06-30"
+    }
+  ],
+  "last_book": [
+    {
+      "ticker": "GOOGL",
+      "sector": "Communication Services",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.10817746557043321,
+      "market_cap": 4360833499527.8535,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "META",
+      "sector": "Communication Services",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.03547017798312259,
+      "market_cap": 1429868407134.2573,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "AMZN",
+      "sector": "Consumer Cyclical",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.06360039491932053,
+      "market_cap": 2563849423582.529,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "TSLA",
+      "sector": "Consumer Cyclical",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.03918593613031099,
+      "market_cap": 1579657483065.7192,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "COST",
+      "sector": "Consumer Defensive",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.010291294720632926,
+      "market_cap": 414861103785.3369,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "WMT",
+      "sector": "Consumer Defensive",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.022358986676613568,
+      "market_cap": 901332062095.5913,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "MA",
+      "sector": "Financial Services",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.011257450948785401,
+      "market_cap": 453808646356.12854,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "V",
+      "sector": "Financial Services",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.016185546264083122,
+      "market_cap": 652469273377.6062,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "LLY",
+      "sector": "Healthcare",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.026532682268834137,
+      "market_cap": 1069581442494.8469,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "UNH",
+      "sector": "Healthcare",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.009363303497264224,
+      "market_cap": 377452063068.81885,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "CAT",
+      "sector": "Industrials",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.01216725215666881,
+      "market_cap": 490484413941.62146,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "GE",
+      "sector": "Industrials",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.00968658602421157,
+      "market_cap": 390484179008.0309,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "AAPL",
+      "sector": "Technology",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.10542640380379446,
+      "market_cap": 4249933117013.1836,
+      "rebalance_date": "2026-06-30"
+    },
+    {
+      "ticker": "NVDA",
+      "sector": "Technology",
+      "port_weight": 0.07142857142857142,
+      "bench_weight": 0.1202222199387208,
+      "market_cap": 4846379801300.05,
+      "rebalance_date": "2026-06-30"
+    }
+  ],
+  "iwf_top_holdings": [
+    {
+      "Symbol": "NVDA",
+      "Name": "NVIDIA Corp",
+      "Holding Percent": 0.1565809
+    },
+    {
+      "Symbol": "AAPL",
+      "Name": "Apple Inc",
+      "Holding Percent": 0.0766651
+    },
+    {
+      "Symbol": "GOOGL",
+      "Name": "Alphabet Inc Class A",
+      "Holding Percent": 0.058916897
+    },
+    {
+      "Symbol": "MSFT",
+      "Name": "Microsoft Corp",
+      "Holding Percent": 0.0559893
+    },
+    {
+      "Symbol": "AVGO",
+      "Name": "Broadcom Inc",
+      "Holding Percent": 0.0480132
+    },
+    {
+      "Symbol": "GOOG",
+      "Name": "Alphabet Inc Class C",
+      "Holding Percent": 0.0476167
+    },
+    {
+      "Symbol": "META",
+      "Name": "Meta Platforms Inc Class A",
+      "Holding Percent": 0.0383247
+    },
+    {
+      "Symbol": "MU",
+      "Name": "Micron Technology Inc",
+      "Holding Percent": 0.035292998
+    },
+    {
+      "Symbol": "TSLA",
+      "Name": "Tesla Inc",
+      "Holding Percent": 0.0304699
+    },
+    {
+      "Symbol": "AMD",
+      "Name": "Advanced Micro Devices Inc",
+      "Holding Percent": 0.0292536
+    }
+  ],
+  "iwf_sector_weights": [
+    {
+      "sector_key": "realestate",
+      "weight": 0.0037
+    },
+    {
+      "sector_key": "consumer_cyclical",
+      "weight": 0.0732
+    },
+    {
+      "sector_key": "basic_materials",
+      "weight": 0.0025
+    },
+    {
+      "sector_key": "consumer_defensive",
+      "weight": 0.0109
+    },
+    {
+      "sector_key": "technology",
+      "weight": 0.5666
+    },
+    {
+      "sector_key": "communication_services",
+      "weight": 0.16239999
+    },
+    {
+      "sector_key": "financial_services",
+      "weight": 0.044699997
+    },
+    {
+      "sector_key": "utilities",
+      "weight": 0.0023999999
+    },
+    {
+      "sector_key": "industrials",
+      "weight": 0.074200004
+    },
+    {
+      "sector_key": "energy",
+      "weight": 0.0050999997
+    },
+    {
+      "sector_key": "healthcare",
+      "weight": 0.0543
+    }
+  ]
+}

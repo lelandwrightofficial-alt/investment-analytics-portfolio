@@ -9,7 +9,7 @@ The work here uses Python (pandas, matplotlib, seaborn, scikit-learn), SQL, and 
 | # | Project | Question it answers | Status |
 | --- | --- | --- | --- |
 | 01 | [Earnings revision screen](01-earnings-revision-screen/) | Which U.S. large-cap growth stocks currently combine positive EPS surprises, rising earnings estimates, accelerating EPS growth, and a reasonable valuation? | Complete |
-| 02 | Portfolio performance and attribution vs Russell 1000 Growth | How did a portfolio do versus the Russell 1000 Growth, and which allocation and selection decisions explain the gap? | Coming soon |
+| 02 | [Portfolio attribution vs Russell 1000 Growth](02-portfolio-attribution/) | How much of a simple large-cap growth portfolio's gap versus the Russell 1000 Growth is sector weights, stock selection, and style? | Complete |
 
 ## Contact
 
