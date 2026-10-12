@@ -4,7 +4,7 @@
 
 This is a study project for interview practice. It is not a recommendation to buy or sell any security.
 
-The reproducible code is `attribution.py`. The walkthrough with saved output is `portfolio_attribution.ipynb`. The one-page note is `MEMO.md`. Study notes are in `INTERVIEW-NOTES.md`.
+The reproducible code is `attribution.py`. The walkthrough with saved output is `portfolio_attribution.ipynb`. The one-page note is `MEMO.md`.
 
 ## The question
 
@@ -258,7 +258,6 @@ jupyter nbconvert --to notebook --execute portfolio_attribution.ipynb --inplace
 | `attribution.py` | Download (optional), market cap, weights, Brinson, style regression, charts, database |
 | `portfolio_attribution.ipynb` | Narrative, SQL, and saved output |
 | `MEMO.md` | One-page note |
-| `INTERVIEW-NOTES.md` | Plain-language walkthrough and likely questions |
 | `data/universe.csv` | The 77 names, same list as the earnings-revision project |
 | `data/raw/` | Cached vendor files, including prices, shares, and splits |
 | `data/attribution.db` | Cleaned SQLite database |

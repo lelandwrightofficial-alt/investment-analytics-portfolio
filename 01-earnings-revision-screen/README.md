@@ -4,7 +4,7 @@
 
 This is a study project for interview practice. It is not a recommendation to buy or sell any security, and it is not a description of any firm's live process.
 
-The reproducible code is `earnings_screen.py`. The walkthrough with saved output is `earnings_revision_screen.ipynb`. Study notes are in `INTERVIEW-NOTES.md`.
+The reproducible code is `earnings_screen.py`. The walkthrough with saved output is `earnings_revision_screen.ipynb`.
 
 ## The question
 
@@ -214,7 +214,6 @@ jupyter nbconvert --to notebook --execute earnings_revision_screen.ipynb --inpla
 | --- | --- |
 | `earnings_screen.py` | Download (optional), clean, score, backtest, charts, database |
 | `earnings_revision_screen.ipynb` | Narrative, SQL, and saved output |
-| `INTERVIEW-NOTES.md` | Plain-language walkthrough and likely questions |
 | `data/universe.csv` | The 77 names |
 | `data/raw/` | Cached vendor files |
 | `data/earnings_screen.db` | Cleaned SQLite database |
