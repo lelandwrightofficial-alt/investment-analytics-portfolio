@@ -2,7 +2,7 @@
 
 Investment analytics portfolio. I am in Atlanta, GA, and I am preparing for an entry-level Investment Analyst role. I hold the IBM Data Science Professional Certificate.
 
-The work here uses Python (pandas, matplotlib, seaborn, scikit-learn), SQL, and Jupyter on equity data: building a stock screen, checking it against history, and writing up the result the way an analyst would.
+The work here uses Python (pandas, matplotlib, seaborn, scikit-learn), SQL, and Jupyter on equity data.
 
 ## Projects
 
